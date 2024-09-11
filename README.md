@@ -24,7 +24,7 @@ This project is a web-based application that allows users to manage and view res
 - **Django**: A high-level Python web framework for rapid development.
   - Django Rest Framework (DRF) for creating APIs.
   - Django's authentication and permission system for security.
-  - PostgreSQL as the database.
+  - SQLite as the database.
 
 ### Others
 
@@ -38,15 +38,14 @@ This project is a web-based application that allows users to manage and view res
 
 - **Node.js**: Required to run the React frontend.
 - **Python 3.x**: Required to run the Django backend.
-- **PostgreSQL**: For the database (you can use SQLite in development).
+- **SQLite**: For the database.
 
 ### Frontend Setup
-
-1. Navigate to the `frontend` directory.
    ```bash
    cd frontend
    npm install
    npm run dev
+  ```
 
 ### Backend Setup
    ```bash
@@ -55,4 +54,4 @@ This project is a web-based application that allows users to manage and view res
    pipenv install
    pipenv shell
    python manage.py runserver
-
+  ```
